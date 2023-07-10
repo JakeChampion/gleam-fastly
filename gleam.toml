@@ -1,0 +1,13 @@
+name = "compute"
+version = "0.1.0"
+description = "A Gleam project"
+
+target = "javascript"
+
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "JakeChampion", repo = "gleam-fastly" }
+links = [{ title = "Website", href = "https://gleam.edgecompute.app" }]
+
+[dependencies]
+gleam_stdlib = "~> 0.29"
+gleam_javascript = "~> 0.4"

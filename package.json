@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "~/temp/gleam/target/release/gleam build && js-compute-runtime src/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fastly/js-compute": "^2.5.0"
+  }
+}
